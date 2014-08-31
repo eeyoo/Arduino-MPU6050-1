@@ -1,0 +1,80 @@
+#######################################
+# Arduino Library for MPU-6050
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MPU6050	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin		KEYWORD2
+setClockSource	KEYWORD2
+setScale	KEYWORD2
+setRange	KEYWORD2
+getClockSource	KEYWORD2
+getScale	KEYWORD2
+getRange	KEYWORD2
+
+getSleepEnabled	KEYWORD2
+setSleepEnabled	KEYWORD2
+getI2CMasterModeEnabled	KEYWORD2
+setI2CMasterModeEnabled	KEYWORD2
+getI2CBypassModeEnabled	KEYWORD2
+setI2CBypassModeEnabled	KEYWORD2
+
+readTemperature	KEYWORD2
+
+getGyroOffsetX	KEYWORD2
+setGyroOffsetX	KEYWORD2
+getGyroOffsetY	KEYWORD2
+setGyroOffsetY	KEYWORD2
+getGyroOffsetZ	KEYWORD2
+setGyroOffsetZ	KEYWORD2
+
+getAccelOffsetX	KEYWORD2
+setAccelOffsetX	KEYWORD2
+getAccelOffsetY	KEYWORD2
+setAccelOffsetY	KEYWORD2
+getAccelOffsetZ	KEYWORD2
+setAccelOffsetZ	KEYWORD2
+
+calibrateGyro	KEYWORD2
+setThreshold	KEYWORD2
+getThreshold	KEYWORD2
+
+readRawGyro		KEYWORD2
+readNormalizeGyro	KEYWORD2
+
+readRawAccel		KEYWORD2
+readNormalizeAccel	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+mpu6050_clockSource_t		LITERAL1
+MPU6050_CLOCK_KEEP_RESET	LITERAL1
+MPU6050_CLOCK_EXTERNAL_19MHZ	LITERAL1
+MPU6050_CLOCK_EXTERNAL_32KHZ	LITERAL1
+MPU6050_CLOCK_PLL_ZGYRO		LITERAL1
+MPU6050_CLOCK_PLL_YGYRO		LITERAL1
+MPU6050_CLOCK_PLL_XGYRO		LITERAL1
+MPU6050_CLOCK_INTERNAL_8MHZ	LITERAL1
+
+mpu6050_dps_t			LITERAL1
+MPU6050_SCALE_2000DPS		LITERAL1
+MPU6050_SCALE_1000DPS		LITERAL1
+MPU6050_SCALE_500DPS		LITERAL1
+MPU6050_SCALE_250DPS		LITERAL1
+
+mpu6050_range_t			LITERAL1
+MPU6050_RANGE_16G		LITERAL1
+MPU6050_RANGE_8G		LITERAL1
+MPU6050_RANGE_4G		LITERAL1
+MPU6050_RANGE_2G		LITERAL1
+
